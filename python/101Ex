@@ -1,0 +1,19 @@
+# Exercise 100
+# Write a function named get_average_spent_per_item that takes in the shopping cart and returns the average of summing each item's quanties times that item's price.
+# Hint: You may need to set an initial total price and total total quantity to zero, then sum up and divide that total price by the total quantity
+
+assert get_average_spent_per_item(shopping_cart) == 1.333529411764706
+print("Exercise 100 is complete.")
+
+# Exercise 101
+# Write a function named most_spent_on_item that takes in the shopping cart as input and returns the dictionary associated with the item that has the highest price*quantity.
+# Be sure to do this as programmatically as possible.
+# Hint: Similarly to how we sometimes begin a function with setting a variable to zero, we need a starting place:
+# Hint: Consider creating a variable that is a dictionary with the keys "price" and "quantity" both set to 0. You can then compare each item's price and quantity total to the one from "most"
+
+assert most_spent_on_item(shopping_cart) == {
+    "title": "chocolate",
+    "price": 0.75,
+    "quantity": 9
+}
+print("Exercise 101 is complete.")
