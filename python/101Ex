@@ -1,3 +1,25 @@
+# Exercise 96
+# Write a function named get_tax_rate that takes in the above shopping cart as input and returns the tax rate.
+# Hint: How do you access a key's value on a dictionary? The tax rate is one key of the entire shopping_cart dictionary.
+
+assert get_tax_rate(shopping_cart) == .08
+print("Exercise 96 is complete")
+
+# Exercise 97
+# Write a function named number_of_item_types that takes in the shopping cart as input and returns the number of unique item types in the shopping cart.
+# We're not yet using the quantity of each item, but rather focusing on determining how many different types of items are in the cart.
+
+assert number_of_item_types(shopping_cart) == 5
+print("Exercise 97 is complete.")
+
+# Exercise 98
+# Write a function named total_number_of_items that takes in the shopping cart as input and returns the total number all item quantities.
+# This should return the sum of all of the quantities from each item type
+
+assert total_number_of_items(shopping_cart) == 17
+print("Exercise 98 is complete.")
+
+
 # Exercise 99
 # Write a function named get_average_item_price that takes in the shopping cart as an input and returns the average of all the item prices.
 # Hint - This should determine the total price divided by the number of types of items. This does not account for each item type's quantity.
