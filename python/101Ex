@@ -1,3 +1,27 @@
+# Exercise 94
+# Write a function called highest_price_book that takes in the above defined list of dictionaries "books" and returns the dictionary containing the title, price, and author of the book with the highest priced book.
+# Hint: Much like sometimes start functions with a variable set to zero, you may want to create a dictionary with the price set to zero to compare to each dictionary's price in the list
+
+assert highest_price_book(books) == {
+    "title": "The Visual Display of Quantitative Information",
+    "price": 38.00,
+    "author": "Edward Tufte"
+}
+
+print("Exercise 94 is complete")
+
+# Exercise 95
+ # Write a function called lowest_priced_book that takes in the above defined list of dictionaries "books" and returns the dictionary containing the title, price, and author of the book with the lowest priced book.
+ # Hint: Much like sometimes start functions with a variable set to zero or float('inf'), you may want to create a dictionary with the price set to float('inf') to compare to each dictionary in the list
+
+
+ assert lowest_price_book(books) == {
+     "title": "Weapons of Math Destruction",
+     "author": "Cathy O'Neil",
+     "price": 17.44
+ }
+ print("Exercise 95 is complete.")
+
 # Exercise 96
 # Write a function named get_tax_rate that takes in the above shopping cart as input and returns the tax rate.
 # Hint: How do you access a key's value on a dictionary? The tax rate is one key of the entire shopping_cart dictionary.
