@@ -1,3 +1,35 @@
+print("Good afternoon, ya'll!")
+
+
+
+# Exercise 90
+# Write a function named get_book_author that takes in a dictionary (the above declared book variable) and returns the author's name
+
+
+assert get_book_author(book) == "Frances Buontempo"
+print("Exercise 90 is complete.")
+
+# Exercise 91
+# Write a function named get_number_of_books that takes in a list of objects and returns the number of dictionaries in that list.
+
+assert get_number_of_books(books) == 4
+print("Exercise 91 is complete.")
+
+
+
+# Exercise 92
+# Write a function named total_of_book_prices that takes in a list of dictionaries and returns the sum total of all the book prices added together
+
+assert total_of_book_prices(books) == 122.9
+print("Exercise 92 is complete.")
+
+# Exercise 93
+# Write a function named get_average_book_price that takes in a list of dictionaries and returns the average book price.
+
+assert get_average_book_price(books) == 30.725
+print("Exercise 93 is complete.")
+
+
 # Exercise 94
 # Write a function called highest_price_book that takes in the above defined list of dictionaries "books" and returns the dictionary containing the title, price, and author of the book with the highest priced book.
 # Hint: Much like sometimes start functions with a variable set to zero, you may want to create a dictionary with the price set to zero to compare to each dictionary's price in the list
